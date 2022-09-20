@@ -18,7 +18,8 @@ package ManipulaNumeros;
                 System.out.println("4 - Trocar a ordem dos números");  
                 System.out.println("5 - Compara números");   
                 System.out.println("6 - Calcular média de aluno");  
-                System.out.println("7 - Calcular custo de carro");               
+                System.out.println("7 - Calcular custo de carro");  
+                System.out.println("8 - Calcular valor do credito");               
                 System.out.println("0 - Sair");
                 System.out.println("Selecione a opção pretendida: ");
                 op = ler.nextInt();
@@ -51,6 +52,9 @@ package ManipulaNumeros;
                         break;
                     case 7:
                         Carro.calculaValorFinal();
+                        break;
+                    case 8:
+                        Credito.calculaCredito();
                         break;
                     default: System.out.println("Insira uma opção válida");
                 } 
