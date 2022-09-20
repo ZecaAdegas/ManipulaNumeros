@@ -17,7 +17,8 @@ package ManipulaNumeros;
                 System.out.println("3 - Soma impares multiplica pares");  
                 System.out.println("4 - Trocar a ordem dos números");  
                 System.out.println("5 - Compara números");   
-                System.out.println("6 - Calcular média de aluno");            
+                System.out.println("6 - Calcular média de aluno");  
+                System.out.println("7 - Calcular custo de carro");               
                 System.out.println("0 - Sair");
                 System.out.println("Selecione a opção pretendida: ");
                 op = ler.nextInt();
@@ -47,6 +48,9 @@ package ManipulaNumeros;
                         break;
                     case 6:
                         MediaAluno.registaNotas();
+                        break;
+                    case 7:
+                        Carro.calculaValorFinal();
                         break;
                     default: System.out.println("Insira uma opção válida");
                 } 
