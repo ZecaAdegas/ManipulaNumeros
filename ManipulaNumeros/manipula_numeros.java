@@ -15,7 +15,8 @@ package ManipulaNumeros;
                 System.out.println("1 - Maior de 2 números");
                 System.out.println("2 - Ordenar em ordem decrescente");   
                 System.out.println("3 - Soma impares multiplica pares");  
-                System.out.println("4 - Trocar a ordem dos números");            
+                System.out.println("4 - Trocar a ordem dos números");  
+                System.out.println("5 - Compara números");            
                 System.out.println("0 - Sair");
                 System.out.println("Selecione a opção pretendida: ");
                 op = ler.nextInt();
@@ -38,6 +39,10 @@ package ManipulaNumeros;
                     case 4:
                         leValores("Insira um valor", "Insira outro valor");
                         TrocaNumero.trocar(x,y);
+                        break;
+                    case 5:
+                        leValores("Insira um valor", "Insira outro valor");
+                        ComparaNumero.comparar(x,y);
                         break;
                     default: System.out.println("Insira uma opção válida");
                 } 
